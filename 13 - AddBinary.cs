@@ -14,4 +14,8 @@ public class Solution
         sum.Reverse();
         return String.Concat(sum);
     }
+
+    // Time complexity: O(Max(n,m))
+
+    // Space complexity: O(Max(n,m))
 }
