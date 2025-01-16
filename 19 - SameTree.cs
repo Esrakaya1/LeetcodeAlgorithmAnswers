@@ -26,4 +26,4 @@ public class Solution {
 }
 
 // time complexity: O(n) n is the total number of nodes in the binary trees.
-// space complexity: O(logn) or O(n) In the worst case, O(n) because of skewed tree.
+// space complexity: O(h) where h is the height of the tree. This is the space required for the recursive call stack. In the worst case, the height of the tree could be O(n) for a skewed tree, but on average, it's O(log n) for a balanced binary tree.
